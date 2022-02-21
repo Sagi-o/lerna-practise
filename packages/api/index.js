@@ -1,8 +1,10 @@
 const express = require('express')
+
+// Import from common library
 const common = require('../common/lib/common')
+
 const port = process.env.PORT || 3001
 const app = express()
-// const commonFn = require('common')
 
 app.get('/', (req, res) => {
     res.send('API server works!')
