@@ -1,6 +1,6 @@
 # Lerna common commands
 
-Install lerna on root monorepo folder:
+Install lerna monorepo folder:
 ``npm i -D lerna``
 
 Or globally
